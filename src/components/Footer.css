@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #232322, #070707);
+    background-repeat: no-repeat;
+    color: white;
+    
+  }
+  .hr-style {
+    border: 0;
+    height: 1px;
+    background-color:grey;
+    margin: 10px 0; 
+    width: 100%; 
+  }

@@ -1,0 +1,90 @@
+.landing-page {
+    background-image: url('../assets/Landing page2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .frame-image {
+    width: 150px;
+    height: auto;
+  }
+  
+  .landing-content {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo-container {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .gradient-text {
+    background: linear-gradient(90deg, hsla(40, 94%, 74%, 1) 0%, hsla(235, 86%, 89%, 1) 0%, hsla(303, 22%, 83%, 1) 39%, hsla(18, 100%, 84%, 1) 100%);
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .landing-page h3 {
+    color: white;
+    font-size: 10px;
+  }
+  
+  .landing-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .landing-content button {
+    width: 30%;
+    padding: 11px;
+    margin-top: 5px;
+    background-color: #fed5c5;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  footer {
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    font-size: 0.8rem;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .chat-image {
+    padding: 11px;
+    margin-top: 7px;
+    width: 500px;
+    height: auto;
+  }
+  
+  .chat-image:hover {
+    animation: pulse 1s infinite alternate; /* Apply the pulse animation on hover */
+  }
