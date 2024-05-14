@@ -6,6 +6,8 @@ import SignupPage from './components/SignupPage';
 import  Footer from './components/Footer';
 import './App.css';
 import PopupForm from './components/PopupForm';
+import HomePage from './components/HomePage';
+import LiveChat from './components/LiveChat';
 //import 'typeface-poppins';
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/signup" element={<SignupPage />} />
         <Route path="/footer" element={<Footer/>}/>
         <Route path="/popup" element={<PopupForm />}/>
+        <Route path="/home" element={<HomePage />}/>
+        <Route path="/live" element={<LiveChat />}/>
       </Routes>
     </Router>
   );
